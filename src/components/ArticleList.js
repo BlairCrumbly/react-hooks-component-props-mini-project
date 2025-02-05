@@ -3,7 +3,7 @@ import Article from './Article';
 
 const ArticleList = ({ posts }) => {
   return (
-    <div>
+    <main>
       {posts.map((post, index) => (
         <Article
           key={index}
@@ -12,7 +12,7 @@ const ArticleList = ({ posts }) => {
           preview={post.preview}
         />
       ))}
-    </div>
+    </main>
   );
 };
 

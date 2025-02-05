@@ -1,6 +1,7 @@
 const Header = ({name}) =>{
     return(
-        <h1>{name}</h1>
+        <Header><h1>{name}</h1></Header>
+        
     )
 }
 
